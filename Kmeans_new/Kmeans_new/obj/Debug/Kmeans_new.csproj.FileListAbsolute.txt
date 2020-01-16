@@ -11,3 +11,9 @@ F:\VS\C#\Kmeans_new\Kmeans_new\obj\Debug\Kmeans_new.pdb
 C:\Users\Administrator\K-means\Kmeans_new\Kmeans_new\bin\Debug\Kmeans_new.exe.config
 C:\Users\Administrator\K-means\Kmeans_new\Kmeans_new\obj\Debug\Kmeans_new.exe
 C:\Users\Administrator\K-means\Kmeans_new\Kmeans_new\obj\Debug\Kmeans_new.pdb
+C:\Users\Administrator\K-means\Kmeans_new\Kmeans_new\bin\Debug\Kmeans_new.exe
+C:\Users\Administrator\K-means\Kmeans_new\Kmeans_new\bin\Debug\Kmeans_new.pdb
+C:\Users\Administrator\K-means\Kmeans_new\Kmeans_new\obj\Debug\Kmeans_new.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\K-means\Kmeans_new\Kmeans_new\obj\Debug\Kmeans_new.Form1.resources
+C:\Users\Administrator\K-means\Kmeans_new\Kmeans_new\obj\Debug\Kmeans_new.Properties.Resources.resources
+C:\Users\Administrator\K-means\Kmeans_new\Kmeans_new\obj\Debug\Kmeans_new.csproj.GenerateResource.Cache

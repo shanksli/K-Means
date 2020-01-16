@@ -35,27 +35,29 @@ namespace Kmeans_new
             fd.Title = "打开文件夹";
             string path = "";
             fd.FilterIndex = 1;
-            fd.InitialDirectory = "C:\\Users\\Administrator\\Documents\\Magnifi\\Projects\\Default\\DemoData4.3";
+            string file = System.Environment.CurrentDirectory.ToString();
+            //fd.InitialDirectory = "C:\\Users\\Administrator\\Documents\\Magnifi\\Projects\\Default\\DemoData4.3";
+            fd.InitialDirectory = file;
             if (fd.ShowDialog() == DialogResult.OK)
             {
                 path = fd.FileName;
                 table = ImportCsvToDataTable(path);
-            }
-            TableWidth = table.Rows.Count;
-            TableLength = table.Columns.Count;
-            for (int i = 0; i < TableWidth - 1; i++)
-            {
-                for (int j = 0; j < TableLength - 1; j++)
+
+                TableWidth = table.Rows.Count;
+                TableLength = table.Columns.Count;
+                for (int i = 0; i < TableWidth - 1; i++)
                 {
-                    InputDataSample ids = new InputDataSample();
-                    ids.x = i;
-                    ids.y = j;
-                    ids.value = Convert.ToInt16(table.Rows[i][j].ToString());
-                    ids.color = Color.Green;
-                    sampleList.Add(ids);
+                    for (int j = 0; j < TableLength - 1; j++)
+                    {
+                        InputDataSample ids = new InputDataSample();
+                        ids.x = i;
+                        ids.y = j;
+                        ids.value = Convert.ToInt16(table.Rows[i][j].ToString());
+                        ids.color = Color.Green;
+                        sampleList.Add(ids);
+                    }
                 }
             }
-           //bmImage  = new Bitmap(TableWidth, TableLength);
         }
 
 
