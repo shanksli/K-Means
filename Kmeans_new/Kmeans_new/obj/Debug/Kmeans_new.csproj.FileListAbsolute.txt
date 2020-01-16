@@ -1,0 +1,10 @@
+F:\VS\C#\Kmeans_new\Kmeans_new\bin\Debug\Kmeans_new.exe.config
+F:\VS\C#\Kmeans_new\Kmeans_new\bin\Debug\Kmeans_new.exe
+F:\VS\C#\Kmeans_new\Kmeans_new\bin\Debug\Kmeans_new.pdb
+F:\VS\C#\Kmeans_new\Kmeans_new\bin\Debug\delaunay_LTENative.dll
+F:\VS\C#\Kmeans_new\Kmeans_new\obj\Debug\Kmeans_new.csprojResolveAssemblyReference.cache
+F:\VS\C#\Kmeans_new\Kmeans_new\obj\Debug\Kmeans_new.Form1.resources
+F:\VS\C#\Kmeans_new\Kmeans_new\obj\Debug\Kmeans_new.Properties.Resources.resources
+F:\VS\C#\Kmeans_new\Kmeans_new\obj\Debug\Kmeans_new.csproj.GenerateResource.Cache
+F:\VS\C#\Kmeans_new\Kmeans_new\obj\Debug\Kmeans_new.exe
+F:\VS\C#\Kmeans_new\Kmeans_new\obj\Debug\Kmeans_new.pdb
