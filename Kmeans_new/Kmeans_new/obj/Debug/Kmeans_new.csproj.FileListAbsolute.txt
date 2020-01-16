@@ -8,3 +8,6 @@ F:\VS\C#\Kmeans_new\Kmeans_new\obj\Debug\Kmeans_new.Properties.Resources.resourc
 F:\VS\C#\Kmeans_new\Kmeans_new\obj\Debug\Kmeans_new.csproj.GenerateResource.Cache
 F:\VS\C#\Kmeans_new\Kmeans_new\obj\Debug\Kmeans_new.exe
 F:\VS\C#\Kmeans_new\Kmeans_new\obj\Debug\Kmeans_new.pdb
+C:\Users\Administrator\K-means\Kmeans_new\Kmeans_new\bin\Debug\Kmeans_new.exe.config
+C:\Users\Administrator\K-means\Kmeans_new\Kmeans_new\obj\Debug\Kmeans_new.exe
+C:\Users\Administrator\K-means\Kmeans_new\Kmeans_new\obj\Debug\Kmeans_new.pdb

@@ -34,6 +34,8 @@
             this.KTextBox = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.PGNNameTextBox = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,7 +51,7 @@
             // 
             // GenerateCeterButton
             // 
-            this.GenerateCeterButton.Location = new System.Drawing.Point(265, 75);
+            this.GenerateCeterButton.Location = new System.Drawing.Point(176, 76);
             this.GenerateCeterButton.Name = "GenerateCeterButton";
             this.GenerateCeterButton.Size = new System.Drawing.Size(75, 23);
             this.GenerateCeterButton.TabIndex = 1;
@@ -59,7 +61,7 @@
             // 
             // CaculateButton
             // 
-            this.CaculateButton.Location = new System.Drawing.Point(435, 76);
+            this.CaculateButton.Location = new System.Drawing.Point(265, 76);
             this.CaculateButton.Name = "CaculateButton";
             this.CaculateButton.Size = new System.Drawing.Size(75, 23);
             this.CaculateButton.TabIndex = 2;
@@ -71,31 +73,52 @@
             // 
             this.KTextBox.Location = new System.Drawing.Point(87, 152);
             this.KTextBox.Name = "KTextBox";
-            this.KTextBox.Size = new System.Drawing.Size(100, 21);
+            this.KTextBox.Size = new System.Drawing.Size(75, 21);
             this.KTextBox.TabIndex = 3;
             this.KTextBox.Text = "2";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(87, 273);
+            this.pictureBox1.Location = new System.Drawing.Point(367, 51);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1006, 189);
+            this.pictureBox1.Size = new System.Drawing.Size(924, 189);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
             // PGNNameTextBox
             // 
-            this.PGNNameTextBox.Location = new System.Drawing.Point(390, 151);
+            this.PGNNameTextBox.Location = new System.Drawing.Point(265, 152);
             this.PGNNameTextBox.Name = "PGNNameTextBox";
-            this.PGNNameTextBox.Size = new System.Drawing.Size(100, 21);
+            this.PGNNameTextBox.Size = new System.Drawing.Size(75, 21);
             this.PGNNameTextBox.TabIndex = 5;
+            this.PGNNameTextBox.Text = "123";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(87, 137);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(47, 12);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "质心数K";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(263, 137);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(41, 12);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "图像名";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1296, 629);
+            this.ClientSize = new System.Drawing.Size(1296, 266);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.PGNNameTextBox);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.KTextBox);
@@ -118,6 +141,8 @@
         private System.Windows.Forms.TextBox KTextBox;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox PGNNameTextBox;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
